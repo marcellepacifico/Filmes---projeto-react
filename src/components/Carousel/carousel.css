@@ -1,0 +1,48 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+  }
+
+.container{
+    /* max-width: 100%; */
+}
+
+.container .carousel{
+    display:flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;   
+}
+
+.container .carousel::-webkit-scrollbar{
+    display:none;
+}
+
+
+.container .carousel .item{
+    /* margin:10px;
+    width: 280px; */
+    /* padding-right:10px;
+    background-color: black; */
+}
+
+.container .carousel .item .image img{
+    width: 100rem;
+    height:33rem; 
+    /* object-fit:fill; */
+}
+
+.container .buttons {
+    width:100%;
+    text-align:center;
+}
+
+.container .buttons button {
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+}
+
+.container .buttons button:first-child img {
+    transform: rotate(180deg) ;
+}

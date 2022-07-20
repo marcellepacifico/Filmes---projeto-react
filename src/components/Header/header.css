@@ -1,0 +1,28 @@
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+    height:4rem;
+    background-color: red;
+}
+
+.logo{
+    margin-left: 2em;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.favoritos {
+    margin-right: 2em;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    padding: 5px 14px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+} 
